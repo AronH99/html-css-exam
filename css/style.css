@@ -1,0 +1,382 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+header {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 10px;
+  background-color: white;
+  max-height: 510px;
+}
+header .totaalheader {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 10px;
+  background-color: white;
+  max-height: 510px;
+}
+
+Header h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+}
+ul li {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #646464;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.headerflex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 35px;
+  padding-top: 55px;
+  padding-left: 65px;
+  padding-right: 20px;
+}
+
+.headerflex ul li:last-child::before {
+  content: "\e900";
+  font-family: "icomoon";
+  font-size: 10px;
+}
+
+header img {
+  display: block;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/1;
+}
+header .imgholder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header section h2 {
+  position: absolute;
+  color: #e7e34f;
+  font-size: 50px;
+  font-weight: bold;
+  width: 400px;
+  height: auto;
+  flex-direction: column;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tussenstuk {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 10px;
+  background-color: white;
+  min-height: 420px;
+  padding-right: 100px;
+  padding-left: 80px;
+  padding-top: 70px;
+  gap: 80px;
+  display: flex;
+  border-bottom: 1px solid #121212;
+}
+.flextussenstuk p:nth-child(4) {
+  padding-bottom: 40px;
+}
+.flextussenstuk {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  color: #646464;
+}
+.flextussenstuk h1 {
+  color: #121212;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.flextussenstuk .geeldingk {
+  color: #959364;
+  padding-bottom: 30px;
+}
+.flextussenstuk p {
+  font-size: 14px;
+}
+.foto {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 10px;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #121212;
+}
+.foto .imgholder {
+  display: flex;
+  flex: 1 1 250px;
+  align-items: flex-end;
+}
+.foto .imgholder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+.imgholder h1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: #e7e34f;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 40px;
+}
+
+.imgholder p {
+  position: absolute;
+  color: white;
+  display: flex;
+  margin-left: 10px;
+  font-size: 12px;
+  padding-bottom: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foto .imgholder h2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+section .formulier {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100px;
+  background-color: white;
+  padding-top: 60px;
+  gap: 100px;
+  display: flex;
+  padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section form {
+  width: calc(100% - 300px);
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section aside {
+  width: 25%;
+  padding-right: 80px;
+}
+section aside h1 {
+  padding-bottom: 35px;
+  color: #121212;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section aside h2 {
+  color: #646464;
+}
+section aside h3 {
+  padding-bottom: 70px;
+  color: #646464;
+}
+section aside p {
+  padding-bottom: 25px;
+  color: #646464;
+}
+section aside p,
+section aside h2,
+section aside h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+section form h1 {
+  padding-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+section form input {
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  padding-left: 0px;
+  border-bottom: 1px solid #121212;
+  resize: none;
+  margin-top: 10px;
+}
+
+section form textarea {
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  border-bottom: 1px solid #121212;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+section form button {
+  margin-top: 8px;
+  background-color: white;
+  border: 1px solid #646464;
+  width: 160px;
+  height: 30px;
+}
+
+section aside ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .formulier aside ul li:nth-child(1):after {
+  content: "\e904";
+  font-family: "icomoon";
+  font-size: 20px;
+  border: 1px solid #e7e34f;
+  background-color: #e7e34f;
+  border-radius: 20%;
+  color: white;
+  padding: 3px;
+}
+section .formulier aside ul li:nth-child(2):after {
+  content: "\e902";
+  font-family: "icomoon";
+  font-size: 20px;
+  border: 1px solid #e7e34f;
+  background-color: #e7e34f;
+  border-radius: 20%;
+  color: white;
+  padding: 3px;
+}
+section .formulier aside ul li:nth-child(3):after {
+  content: "\e901";
+  font-family: "icomoon";
+  font-size: 20px;
+  border: 1px solid #e7e34f;
+  background-color: #e7e34f;
+  border-radius: 20%;
+  color: white;
+  padding: 3px;
+}
+section .formulier aside ul li:nth-child(4):after {
+  content: "\e903";
+  font-family: "icomoon";
+  font-size: 18px;
+  border: 1px solid #e7e34f;
+  background-color: #e7e34f;
+  border-radius: 20%;
+  color: white;
+  padding: 3px;
+}
+
+footer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 50px;
+  background-color: rgb(71, 67, 67);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .laatste .formulier form,
+  .laatste .formulier aside {
+    width: 50%;
+    transition: all 100ms;
+  }
+  .flextussenstuk {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 100ms;
+  }
+  header section h2 {
+    font-size: 30px;
+    width: 200px;
+    transition: all 100ms;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerflex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 100ms;
+  }
+  header h1 {
+    margin-bottom: 3px;
+  }
+  .laatste .formulier form,
+  .laatste .formulier aside {
+    width: 40%;
+    transition: all 100ms;
+  }
+  .tussenstuk {
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 35px;
+    gap: 40px;
+    transition: all 200ms;
+  }
+  header section h2 {
+    font-size: 20px;
+    width: 120px;
+    transition: all 200ms;
+    margin-left: 40px;
+  }
+  section form button {
+    width: 130px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .laatste .formulier {
+    display: flex;
+    flex-direction: column;
+  }
+  .laatste .formulier aside {
+    padding-right: 0px;
+    padding-left: 80px;
+  }
+  section form button {
+    width: 70px;
+    height: 15px;
+  }
+}
